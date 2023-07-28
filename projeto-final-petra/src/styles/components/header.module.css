@@ -1,0 +1,24 @@
+.headerContainer {
+  background-color: #EBDAEA;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+
+}
+
+.headerTitle {
+  font-size: 2.5rem;
+  color: #ffffff;
+  text-shadow: 6px 4px 10px rgba(0,0,0,0.44);
+  padding-top: 2rem;
+}
+
+.headerImage {
+  width: 55rem;
+  padding-top: 0%;
+  margin-bottom: 2rem;
+  height: fit-content;
+
+}
