@@ -4,7 +4,7 @@ import home from '../assets/homelogo1.png'
 
 import styles from '../styles/pages/home.module.css'
 
-import bg from '../assets/homesection2bg.png'
+
 
 const Home = () => {
   return (
@@ -14,10 +14,10 @@ const Home = () => {
       <h1 className={styles.cardTitle}>
         ConectAção Social: Desvendando Direitos, Fortalecendo Cidadania.
       </h1>
-      <div style={{ backgroundImage: `url(${bg})` }}> </div>
-      <div className={styles.homeContainer}>
+      <div className={`${styles.homeContainer} ${styles.backgroundImage}`}>
         <div className={styles.cardContainer}>
           <h2 className={styles.cardTitle}>O que?</h2>
+          
           <p className={styles.cardDescription}>
             O ConectAção Social é uma iniciativa engajada em promover a
             ampliação do acesso ao conhecimento sobre projetos e políticas
@@ -28,10 +28,14 @@ const Home = () => {
             comprometidos em orientar e tratar dos assuntos pertinentes às
             políticas sociais.
           </p>
+
+          <a href="/seconecte" className={styles.joinButton}>
+        Conheça a rede de Serviços de Camaragibe!
+      </a>
         </div>
 
         <div className={styles.cardContainer}>
-          <h2 className={styles.cardTitle}>Porquê?</h2>
+          <h2 className={styles.cardTitle}> Por que?</h2>
           <p className={styles.cardDescription}>
             Como resposta a essa realidade, o ConectAção Social se fundamenta
             nos dados do Instituto Brasileiro de Geografia e Estátistica (IBGE)
@@ -43,6 +47,11 @@ const Home = () => {
             percebemos a necessidade urgente de proporcionar informações claras
             e acessíveis sobre a rede socioassistencial disponível no município.
           </p>
+          
+          <a href="/voluntarios" className={styles.joinButton}>
+        Quem somos nós?
+      </a>
+
         </div>
 
         <div className={styles.cardContainer}>
@@ -53,7 +62,15 @@ const Home = () => {
             de encontro para quem busca conhecimento, compreensão e acolhimento.
             Unidos, faremos a diferença e construiremos um futuro inclusivo para
             todos. Junte-se a nós!
+      
+
           </p>
+           
+          <a href="/contato" className={styles.joinButton}>
+        Tire dúvidas ou faça parte!
+      </a>
+
+
         </div>
       </div>
     </>

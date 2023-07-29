@@ -4,56 +4,46 @@
     justify-content: center;
     align-items: center;
     padding: 0.5rem;
-    gap: 5em;
+    gap: 2em; /* Diminua o valor do gap para reduzir o espaçamento entre os itens */
     list-style: none;
     font-weight: bold;
-}
-
-.menuContainer img {
-   align-items: center;
-   justify-content: center;
-   width: 10em;
-   padding: 1rem;
-   height: fit-content;
-   padding-top: 0%;
-   padding-bottom: 0%;
-
-}
-
-.menuLink {
+  }
+  
+  .menuContainer img {
+    align-items: center;
+    justify-content: center;
+    width: 8em; /* Reduza o valor do width para diminuir o tamanho da logo */
+    padding: 0.5rem; /* Reduza o valor do padding para diminuir o espaçamento ao redor da logo */
+    height: fit-content;
+    padding-top: 0%;
+    padding-bottom: 0%;
+  }
+  
+  .menuLink {
     text-decoration: none;
     color: #f194da;
-    font-size: 1.5em;
-}
-
-.menuLink:hover {
+    font-size: 1.2em; /* Reduza o valor do font-size para diminuir o tamanho do texto do link */
+  }
+  
+  .menuLink:hover {
     border-top: 4px solid #f5e555;
     border-bottom: 4px solid #f5e555;
-    padding: 6px 0; 
-}
-
-img {
-    justify-content: center;
-    padding: 2rem;
-    align-items: center;
-    gap: 10em;
-    max-width: fit-content;
-    width: 300px;
-}
-
-@media screen and (max-width: 768px) {
+    padding: 6px 0;
+  }
+  
+  @media screen and (max-width: 768px) {
     .menuContainer {
-        flex-direction: column;
-        align-items: center;
-        gap: 1em;
+      flex-direction: column;
+      align-items: center;
+      gap: 1em;
     }
-
+  
     .menuContainer img {
-        width: 8em;
-        align-items: end;
+      width: 6em; /* Reduza o valor do width para diminuir o tamanho da logo em telas menores */
+      align-items: end;
     }
-
+  
     .menuLink {
-        font-size: 1.2em;
+      font-size: 1em; /* Reduza o valor do font-size para diminuir o tamanho do texto do link em telas menores */
     }
-}
+  }

@@ -48,22 +48,23 @@ import { useState } from "react"
     return (
       <>
         <Header 
-          title="Me envie uma mensagem" 
           image={contato} 
         />
         <main>
+
+          <h2>Precisa de ajuda? Deixe-nos uma mensagem!</h2>
           <form className={styles.form} onSubmit={handleSubmit}>
             <input 
               className={styles.formInput}
               type="text"
-              placeholder="Digite seu nome"
+              placeholder="Nome"
               onChange={handleInputNome}
               value={nome}  
             />
             <input 
               className={styles.formInput}
               type="email"
-              placeholder="Digite seu email"
+              placeholder="Email e/ou telefone"
               onChange={handleInputEmail}
               value={email}
             />

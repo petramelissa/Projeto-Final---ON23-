@@ -1,15 +1,45 @@
+.swiper-container {
+  max-width: 400px; /* Define a largura máxima do slider */
+  margin: 0 auto; /* Centralize o slider horizontalmente */
+}
 
-h1 {
+.title {
   padding-top: 2rem;
-  padding: 2rem;
-  justify-content: center;
   text-align: center;
+  font-size: 2rem;
+  color: var(--cor-primaria); /* Use a cor definida na paleta */
 }
 
 .slide-item {
-  width: 200%;
-  border-radius: 36px 36px 36px 36px;
+  width: 30rem; /* Define a largura do slide para ocupar 100% do espaço disponível */
+  height: 30rem; /* Define a altura do slide */
+  object-fit: contain; /* Faz com que a imagem preencha todo o espaço do slide, cortando o que exceder */
+  border-radius: 36px; /* Adiciona bordas arredondadas ao slide */
   padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+h2 {
+  text-align: center;
+  font-size: 1.5rem;
+  color: var(--cor-secundaria); /* Use a cor definida na paleta */
+  margin: 1rem 0;
+}
+
+p {
+  text-align: center;
+  font-size: 1rem;
+  color: var(--cor-secundaria); /* Use a cor definida na paleta */
+}
+
+.swiper-button-prev, .swiper-button-next {
+  font-size: 1rem;
+  color: #fff;
+}
+
+.swiper-pagination-bullet {
+  background-color: var(--cor-primaria); /* Use a cor definida na paleta */
+}
 
