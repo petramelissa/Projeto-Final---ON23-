@@ -2,10 +2,10 @@
 
 ![ConectAção Social Logo](src/assets/logosemmunicipio.png)
 
-#Objetivo
+# Objetivo
 O ConectAção Social é um projeto que tem como objetivo facilitar o acesso a informações sobre políticas sociais e serviços socioassistenciais disponíveis no município de Camaragibe-PE. Através de uma plataforma interativa, buscamos empoderar os cidadãos, fornecendo orientações claras e acessíveis sobre seus direitos e oportunidades de assistência, além de conectar os usuários a profissionais voluntários especializados para um suporte mais personalizado.
 
-#Tecnologias Utilizadas
+# Tecnologias Utilizadas
 O projeto ConectAção Social foi desenvolvido utilizando a biblioteca React JS, uma das tecnologias mais populares para a criação de interfaces de usuário interativas e responsivas. Além disso, também fizemos uso de HTML e CSS para estruturação e estilização do site, proporcionando uma experiência visual agradável e coerente. O React JS nos permitiu criar componentes reutilizáveis, como cards informativos e elementos de navegação, o que tornou o desenvolvimento mais eficiente e a manutenção mais organizada. 
 
 Exemplos: 
@@ -27,14 +27,14 @@ Ao longo da minha jornada profissional, percebi que muitos cidadãos enfrentam d
 
 Ao embarcar em uma transição para a área Tech, pude enxergar o poder da tecnologia como uma força transformadora para alcançar um público ainda maior. Acredito que a união entre a assistência social e a tecnologia é capaz de quebrar barreiras, chegando até mais mulheres e pessoas que necessitam de apoio.
 
-#Contatos
+# Contatos
 
 [GitHub](https://github.com/petra.melissa)
 [Instagram](https://www.instagram.com/umapetra)
 [E-mail](mailto:petramelissa@hotmail.com)
 
 
-#Aprendizados
+# Aprendizados
 Durante o processo de desenvolvimento do ConectAção Social, adquirimos diversos aprendizados valiosos. A aplicação de cards foi uma das lições mais importantes, permitindo-nos apresentar informações de forma clara e objetiva. A criação de componentes modulares foi outro aprendizado significativo, tornando o código mais organizado e facilitando a reutilização em diferentes partes do site. Além disso, exploramos a estilização CSS em módulos, o que aumentou a eficiência do trabalho em equipe e evitou conflitos entre estilos.
 
 # Instruções para Rodar Localmente
@@ -59,7 +59,7 @@ Durante o processo de desenvolvimento do ConectAção Social, adquirimos diverso
    Certifique-se de substituir `SEU_API_KEY`, `SEU_AUTH_DOMAIN`, etc., pelos valores corretos da sua conta do Firebase.
 | 6     | Após a criação das variáveis de ambiente, utilize o comando `npm run dev` para rodar o projeto na máquina local. |
 
-#Contribuições
+# Contribuições
 Agradecemos o interesse em contribuir para o ConectAção Social! Se você quiser colaborar com melhorias, correções de bugs ou novas funcionalidades, fique à vontade para criar um "Pull Request" e vamos analizar com carinho!
 
 Se tiver alguma dúvida, sugestão ou apenas quiser entrar em contato conosco, envie um e-mail para petramelissa@hotmail.com! 
