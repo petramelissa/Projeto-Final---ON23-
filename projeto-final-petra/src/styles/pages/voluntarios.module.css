@@ -1,10 +1,54 @@
-.Container{
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    flex-direction:row;
-    color: #f1eb8e;
-    font-size: 1.5rem;
-    padding: 20px;
-    text-align: center;
+
+
+.Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  padding: 2rem;
+  padding-top: 2rem;
+}
+
+.headerImage{
+
+}
+
+.formSection {
+  margin-top: 40px;
+  background-image: url('C:\Users\petra\OneDrive\Área de Trabalho\Projeto-Final---ON23-\projeto-final-petra\src\assets\homesection2bg.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.voluntariosContainer {
+  background-image: url('C:\Users\petra\OneDrive\Área de Trabalho\Projeto-Final---ON23-\projeto-final-petra\src\assets\homesection2bg.png');
+}
+
+.titleSection {
+  background-color: #d5a3da; 
+  padding: 40px 0;
+  text-align: center;
+}
+
+.voluntariosTitle {
+  font-size: 3rem;
+  color: #f0eff0; 
+  margin-bottom: 20px;
+  transition: color 0.3s;
+}
+
+
+.voluntariosTitle:hover {
+  color: #ffffff; 
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .Container {
+    flex-direction: column;
+  }
+
+  .formContainer {
+    margin-top: 20px;
+  }
 }

@@ -1,35 +1,36 @@
 .menuContainer {
-    background-color: #f8ddf5b9;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0.5rem;
-    gap: 2em; /* Diminua o valor do gap para reduzir o espaçamento entre os itens */
-    list-style: none;
-    font-weight: bold;
-  }
-  
-  .menuContainer img {
-    align-items: center;
-    justify-content: center;
-    width: 8em; /* Reduza o valor do width para diminuir o tamanho da logo */
-    padding: 0.5rem; /* Reduza o valor do padding para diminuir o espaçamento ao redor da logo */
-    height: fit-content;
-    padding-top: 0%;
-    padding-bottom: 0%;
-  }
-  
-  .menuLink {
-    text-decoration: none;
-    color: #f194da;
-    font-size: 1.2em; /* Reduza o valor do font-size para diminuir o tamanho do texto do link */
-  }
-  
-  .menuLink:hover {
-    border-top: 4px solid #f5e555;
-    border-bottom: 4px solid #f5e555;
-    padding: 6px 0;
-  }
+  background-color: #f8ddf5b9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.4rem;
+  gap: 2em;
+  list-style: none;
+  font-weight: bold;
+}
+
+.menuContainer img {
+  align-items: center;
+  justify-content: center;
+  width: 8em;
+  padding: 0.5rem;
+  height: fit-content;
+  padding-top: 0%;
+  padding-bottom: 0%;
+  border-radius: 6px;
+}
+
+.menuLink {
+  text-decoration: none;
+  color: #f194da;
+  font-size: 1.2em;
+  transition: color 0.3s ease-in-out; 
+}
+
+.menuLink:hover {
+  color: #c96ab9; 
+  transform: scale(1.1); 
+}
   
   @media screen and (max-width: 768px) {
     .menuContainer {
@@ -39,11 +40,11 @@
     }
   
     .menuContainer img {
-      width: 6em; /* Reduza o valor do width para diminuir o tamanho da logo em telas menores */
+      width: 6em; 
       align-items: end;
     }
   
     .menuLink {
-      font-size: 1em; /* Reduza o valor do font-size para diminuir o tamanho do texto do link em telas menores */
+      font-size: 1em; 
     }
   }

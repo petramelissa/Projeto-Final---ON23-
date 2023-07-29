@@ -1,20 +1,20 @@
 .swiper-container {
-  max-width: 400px; /* Define a largura máxima do slider */
-  margin: 0 auto; /* Centralize o slider horizontalmente */
+  max-width: 400px; 
+  margin: 0 auto; 
 }
 
 .title {
   padding-top: 2rem;
   text-align: center;
   font-size: 2rem;
-  color: var(--cor-primaria); /* Use a cor definida na paleta */
+  color: var(--cor-primaria); 
 }
 
 .slide-item {
-  width: 30rem; /* Define a largura do slide para ocupar 100% do espaço disponível */
-  height: 30rem; /* Define a altura do slide */
-  object-fit: contain; /* Faz com que a imagem preencha todo o espaço do slide, cortando o que exceder */
-  border-radius: 36px; /* Adiciona bordas arredondadas ao slide */
+  width: 30rem; 
+  height: 30rem; 
+  object-fit: contain; 
+  border-radius: 36px; 
   padding: 2rem;
   display: flex;
   justify-content: center;
@@ -24,14 +24,14 @@
 h2 {
   text-align: center;
   font-size: 1.5rem;
-  color: var(--cor-secundaria); /* Use a cor definida na paleta */
+  color: var(--cor-secundaria); 
   margin: 1rem 0;
 }
 
 p {
   text-align: center;
   font-size: 1rem;
-  color: var(--cor-secundaria); /* Use a cor definida na paleta */
+  color: var(--cor-secundaria); 
 }
 
 .swiper-button-prev, .swiper-button-next {
@@ -40,6 +40,19 @@ p {
 }
 
 .swiper-pagination-bullet {
-  background-color: var(--cor-primaria); /* Use a cor definida na paleta */
+  background-color: var(--cor-primaria);
+}
+
+@media (max-width: 768px) {
+  .swiper-container {
+    max-width: 100%;
+  }
+
+  .slide-item {
+    width: 100%;
+    height: auto;
+    border-radius: 0;
+  }
+
 }
 

@@ -10,12 +10,22 @@ const VoluntarioForm = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Aqui você pode adicionar a lógica para enviar os dados do formulário para algum serviço ou armazená-los em algum estado global, conforme suas necessidades.
+   
+
+    limparFormulario();
+  };
+
+  const limparFormulario = () => {
+    setNome('');
+    setIdade('');
+    setProfissao('');
+    setContato('');
+    setBairro('');
   };
 
   return (
     <form className={styles.form} onSubmit={handleSubmit}>
-      <h2>Cadastre-se como voluntário</h2>
+      <h2>Faça o seu pré-cadastro para voluntário!</h2>
       <div className={styles.formGroup}>
         <label htmlFor="nome">Nome:</label>
         <input

@@ -4,59 +4,42 @@
     --cor-hover: #f5c9ef;
   }
 
-  .containerform {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 2rem;
-    flex-wrap: wrap; /* Permite que os cards quebrem a linha quando não couberem mais na mesma linha */
-  }
-  
-  /* Estilos para os cards */
-  .card {
-    background-color: rgba(238, 212, 223, 0.664);
-    width: 40rem; /* Ajuste o tamanho dos cards conforme necessário */
-    padding: 1rem; /* Reduzindo o padding para tornar os cards mais compactos */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra suave */
-    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out; /* Transições de efeito suaves */
-    margin: 1rem; /* Adicionando uma margem para separar os cards */
-  }
-  
-  /* Estilos para a imagem do card */
-  .card img {
-    width: 20rem; /* Ajuste o tamanho da imagem conforme necessário */
-    height: 20rem;
-  }
-  
-  /* Estilos para o título do card */
-  .card h3 {
-    font-size: 1.2rem; /* Reduzindo o tamanho do título */
-    color: var(--cor-primaria);
-    margin: 1rem 0;
-  }
-  
-  /* Estilos para a descrição do card */
-  .card p {
-    font-size: 1rem; /* Reduzindo o tamanho da descrição */
-    color: var(--cor-secundaria);
-  }
-  
-  /* Estilos para o link "Mais informações" */
-  .card a {
-    color: var(--cor-primaria);
-    text-decoration: none;
-    margin-top: 1rem;
-  }
-  
-  /* Efeito de hover para os cards */
-  .card:hover {
-    background-color: var(--cor-hover);
-    transform: translateY(-5px); /* Levanta o card um pouco ao passar o mouse */
-    cursor: pointer;
+  .sectionContainer {
+    background-image: url('src/assets/homesection2bg.png'); 
+    background-size: cover;
+    position:relative;
+    padding: 2rem; 
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-gap: 1rem; 
+    justify-items: center; 
   }
 
+  .introSection {
+    background-color: #f8ddf5b9;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .introSection h2 {
+    font-size: 2rem;
+    color: #c96ab9;
+    margin-bottom: 1rem;
+  }
+  
+  .introSection p {
+    font-size: 1rem;
+    color: #474a51;
+    line-height: 1.5;
+  }
 
+  
+  @media screen and (max-width: 480px) {
+    .sectionContainer {
+      grid-template-columns: 1fr; 
+      padding: 0.5rem; 
+    }
+  }
+
+ 
+ 

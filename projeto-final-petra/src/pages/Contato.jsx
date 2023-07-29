@@ -1,10 +1,8 @@
-import Header from "../components/Header"
-
 import database from '../service/firebase'
 
 import { ref, push, set } from 'firebase/database'
 
-import contato from '../assets/girl-enjoying-at-he-beach.svg'
+
 
 import styles from '../styles/pages/contato.module.css'
 
@@ -47,11 +45,9 @@ import { useState } from "react"
 
     return (
       <>
-        <Header 
-          image={contato} 
-        />
+     
         <main>
-
+        <section className={`${styles.form} ${styles.formSection}`}>
           <h2>Precisa de ajuda? Deixe-nos uma mensagem!</h2>
           <form className={styles.form} onSubmit={handleSubmit}>
             <input 
@@ -79,9 +75,11 @@ import { useState } from "react"
               type="submit">Enviar Mensagem
             </button>
           </form>
+          </section>
         </main>
       </>
     )
+
   }
   
   export default Contato

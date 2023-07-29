@@ -1,28 +1,30 @@
+import React from 'react';
 import Header from "../components/Header"
-import portfolio from '../assets/woman-reading-book.svg'
 import styles from '../styles/pages/voluntarios.module.css'
 import Slider from '../components/Slider'
+import Form from '../components/Form'
 
-const Portfolio = () => {
+const Voluntarios = () => {
   return (
     <>
 
-    <Slider />
-      <Header 
-        image={portfolio} 
-      />
+      <main>
+        <section className={styles.titleSection}>
+          <h1 className={styles.voluntariosTitle}>Nossos Voluntários</h1>
+        </section>
 
-      <div className={styles.Container}>
+        <section className={styles.sliderSection}>
+          <Slider />
+        </section>
 
-
-
-      </div>
-
+        <section className={styles.formSection}>
+          <Form />
+        </section>
+      </main>
     </>
-   
-  )
+  );
 }
 
-export default Portfolio
+export default Voluntarios;
 
 

@@ -11,12 +11,15 @@ const Home = () => {
     <>
       <Header image={home} />
 
-      <h1 className={styles.cardTitle}>
-        ConectAção Social: Desvendando Direitos, Fortalecendo Cidadania.
-      </h1>
-      <div className={`${styles.homeContainer} ${styles.backgroundImage}`}>
-        <div className={styles.cardContainer}>
-          <h2 className={styles.cardTitle}>O que?</h2>
+      <main className={styles.mainContent}>
+        <h1 className={`${styles.cardTitle} ${styles.typingAnimation}`}>
+          ConectAção Social: Desvendando Direitos, Fortalecendo Cidadania.
+        </h1>
+
+        <div className={`${styles.homeContainer} ${styles.backgroundImage}`}>
+          <div className={styles.cardContainer}>
+            <h2 className={styles.cardTitle}>O que?</h2>
+
           
           <p className={styles.cardDescription}>
             O ConectAção Social é uma iniciativa engajada em promover a
@@ -29,7 +32,7 @@ const Home = () => {
             políticas sociais.
           </p>
 
-          <a href="/seconecte" className={styles.joinButton}>
+          <a href="/sobre" className={styles.joinButton}>
         Conheça a rede de Serviços de Camaragibe!
       </a>
         </div>
@@ -67,14 +70,13 @@ const Home = () => {
           </p>
            
           <a href="/contato" className={styles.joinButton}>
-        Tire dúvidas ou faça parte!
+        Tire suas dúvidas, queremos te ajudar!
       </a>
-
-
-        </div>
+</div>
       </div>
+      </main>
     </>
   );
 }
 
-export default Home
+export default Home;

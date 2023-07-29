@@ -3,42 +3,39 @@
   background-size: cover; 
 }
 
+.headerImage {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
 
-
-.homeContainer {
-    display: flex;
-    justify-content: center;
-    align-items: end;   
-    gap: 4rem;
-    padding: 10rem;
-    padding-top: 1rem;
-    width: 100%;
-    align-items: baseline;
-    flex-direction: column;
+  
+  .typingAnimation {
+    overflow: hidden; 
+    white-space: nowrap; 
+    border-right: 2px solid transparent; 
+    animation: typing 4s steps(40), blink-caret 0.75s step-end infinite;
+  }
+  
+ 
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
   }
   
 
-
-  .cardContainer {
-    background-color: rgba(238, 212, 223, 0.664);
-    width: 60rem;
-    height: 40%;
-    padding: 2rem;
-    padding-top: 0%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-
-  }
-
-  
-  .cardTitle {
-    padding: 1rem;
-    font-size: 2.5rem;
-    color: #eea9e2;
-    justify-content: center;
-    align-items: center;
+  @keyframes blink-caret {
+    from,
+    to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: #c96ab9; /* ou a cor de sua preferência */
+    }
   }
   
   .cardDescription {
@@ -71,26 +68,50 @@
     background-color: #d080c6;
   }
 
+  .mainContent {
+    padding: 5rem; 
+  }
+  
+  .homeContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 4rem;
+  }
+  
+  .cardContainer {
+    background-color: rgba(238, 212, 223, 0.664);
+    width: 60rem;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .cardTitle {
+    font-size: 1.5rem;
+    padding: 2rem;
+    color: #c96ab9;
+  }
+  
+
   @media screen and (max-width: 768px) {
-    .homeContainer {
-      padding: 5rem; /* Reduzir o espaçamento nas laterais */
+    .mainContent {
+      padding: 2rem; /* Espaçamento menor para telas menores */
     }
   
     .cardContainer {
-      width: 100%; /* Preencher toda a largura disponível */
-      height: auto; /* Ajustar altura automaticamente */
-    }
-  
-    .card {
-      flex: 1 1 50%; /* Fazer os cards ocuparem 50% da largura em telas menores */
-      margin-bottom: 2rem; /* Adicionar espaço entre os cards */
+      width: 100%;
     }
   
     .cardTitle {
-      font-size: 2rem; /* Reduzir o tamanho do título */
+      font-size: 2rem;
     }
   
     .cardDescription {
-      font-size: 1rem; /* Reduzir o tamanho da descrição */
+      font-size: 1rem;
     }
   }
+
+ 
