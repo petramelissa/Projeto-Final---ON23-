@@ -76,9 +76,11 @@ const VoluntarioForm = () => {
           required
         />
       </div>
+      <div className={styles.formButtonContainer}>
       <button type="submit">Enviar</button>
-    </form>
-  );
+    </div>
+  </form>
+);
 };
 
 export default VoluntarioForm;

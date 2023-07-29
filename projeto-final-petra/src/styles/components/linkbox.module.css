@@ -1,0 +1,16 @@
+.linkBox {
+    display: inline-block;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    background-color: #c96ab9;
+    color: #ffffff;
+    font-size: 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .linkBox:hover {
+    background-color: #f5c9ef;
+  }
+  

@@ -2,12 +2,9 @@
   display: flex;
   flex-direction: column;
   max-width: 60rem;
-  min-height: 70vh; 
+  min-height: 50vh; 
   margin: 0 auto;
   padding: 2rem;
-  background-image: url('src/assets/homesection2bg.png'); 
-  background-size: cover;
-  background-position: center;
   border-radius: 10px;
   align-items: center;
 }
@@ -15,7 +12,9 @@
 .formSection {
   padding-bottom: 5rem;
   padding: 2rem;
-  background-color: #f8ddf5; 
+  background-color: #f8ddf5;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 .form h2 {
@@ -27,7 +26,7 @@
 
 .form h2:hover {
   font-size: 2.2rem; 
-  color: #f5c9ef; 
+  color: #ffffff; 
 }
 
 .formInput {
@@ -38,7 +37,6 @@
   width: 50rem;
   height: 5rem;
   align-items: center;
-  
 }
 
 .formInput::placeholder {

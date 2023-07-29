@@ -43,6 +43,8 @@ p {
   background-color: var(--cor-primaria);
 }
 
+
+
 @media (max-width: 768px) {
   .swiper-container {
     max-width: 100%;

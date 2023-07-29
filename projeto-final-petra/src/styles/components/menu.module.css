@@ -7,7 +7,7 @@
   gap: 2em;
   list-style: none;
   font-weight: bold;
-}
+  height: 80px; }
 
 .menuContainer img {
   align-items: center;
@@ -19,6 +19,20 @@
   padding-bottom: 0%;
   border-radius: 6px;
 }
+
+.header {
+  height: 80px; 
+  background-color: #f8ddf5b9; 
+}
+
+
+.mainContent {
+  margin-top: 80px; 
+  padding: 5rem;
+}
+
+
+
 
 .menuLink {
   text-decoration: none;

@@ -1,13 +1,12 @@
-import styles from '../styles/components/footer.module.css'
+import React from 'react';
+import styles from '../styles/components/footer.module.css';
 
-
-const Footer = ({content}) => {
+const Footer = ({ content }) => {
   return (
-    <footer className={styles.footerContainer}> 
-    <p className={styles.footerContent}>{content}</p> 
+    <footer className={styles.footerContainer}>
+      <p className={styles.footerContent}>{content}</p>
     </footer>
-  )
+  );
+};
 
-}
-
-export default Footer
+export default Footer;
