@@ -1,7 +1,6 @@
 # Readme - Projeto ConectAção Social - Camaragibe - PE
 
-![ConectAção Social Logo] (src/assets/logosemmunicipio.png)
-
+![ConectAção Social Logo](src/assets/logosemmunicipio.png)
 
 #Objetivo
 O ConectAção Social é um projeto que tem como objetivo facilitar o acesso a informações sobre políticas sociais e serviços socioassistenciais disponíveis no município de Camaragibe-PE. Através de uma plataforma interativa, buscamos empoderar os cidadãos, fornecendo orientações claras e acessíveis sobre seus direitos e oportunidades de assistência, além de conectar os usuários a profissionais voluntários especializados para um suporte mais personalizado.
