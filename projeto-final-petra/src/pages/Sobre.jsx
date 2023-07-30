@@ -38,11 +38,10 @@ const Sobre = () => {
             icon={Bf}
             title="Casa da Cidadania"
             description="O município dispõe de 1(uma)Casa da Cidadania. 
-            A casa da cidadania sedia os serviços sociais do Cadastro Único e Bolsa
-            Família. Além dos serviços do CadÚnico, Tarifa Social Celpe e
-            Serviço Social, no local também funcionará o Vem Livre Acesso,
-            Cartão SUS, coordenação do BEM e a parte da Educação do Bolsa
-            Família, com orientação para a população."
+            A casa da cidadania sedia os serviços voltados para o Cadastro Único, e o programa de transferência de renda Bolsa
+            Família. Além desses serviços, é lá que você consegue tratar da Tarifa Social Celpe (energia elétrica) e
+            pode também conversar com as profissionais do Serviço Social. No local também funciona o atendimento para o Vem Livre Acesso,
+            Cartão SUS, coordenação do BEM (Bilhete Único Municipal)."
             address="Av. Dr. Belmino Correia, 2824 - Timbi, Camaragibe - PE, 54759-000"
             contact="(81) 99945-2936"
             link="https://agendamento.camaragibe.pe.gov.br/"
