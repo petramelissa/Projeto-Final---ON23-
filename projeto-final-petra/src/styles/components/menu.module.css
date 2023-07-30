@@ -25,14 +25,10 @@
   background-color: #f8ddf5b9; 
 }
 
-
 .mainContent {
   margin-top: 80px; 
   padding: 5rem;
 }
-
-
-
 
 .menuLink {
   text-decoration: none;
@@ -48,17 +44,17 @@
   
   @media screen and (max-width: 768px) {
     .menuContainer {
-      flex-direction: column;
+      flex-direction: row;
       align-items: center;
       gap: 1em;
     }
   
     .menuContainer img {
-      width: 6em; 
+      width: 4em; 
       align-items: end;
     }
   
     .menuLink {
-      font-size: 1em; 
+      font-size: 0.5em; 
     }
   }

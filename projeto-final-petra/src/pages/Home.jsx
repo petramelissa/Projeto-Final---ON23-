@@ -63,7 +63,12 @@ const Home = () => {
               Seja parte dessa transformação social. O ConectAção Social é o
               ponto de encontro para quem busca conhecimento, compreensão e
               acolhimento. Unidos, faremos a diferença e construiremos um futuro
-              inclusivo para todos. Junte-se a nós!
+              inclusivo para todos. Além do site para informar o que faz e onde estão localizados
+              os espaços da rede socioassistencial, somos um grupo de voluntários que 
+              com conhecimento técnico sobre as políticas, oferecemos suporte e consultoria 
+              com por exemplo, sobre o que os usuários podem acessar e quais documentos e procedimentos
+              necessarios!
+              Junte-se a nós!
             </p>
 
             <a href="/contato" className={styles.joinButton}>

@@ -11,7 +11,7 @@ function App() {
       id: "1",
       image: "https://media.licdn.com/dms/image/D5603AQFXyxjTUhdmFg/profile-displayphoto-shrink_800_800/0/1677683884083?e=2147483647&v=beta&t=icPdFp0_aohSNYPL5vnh9O5FkfqxHukeqlKxHCEVqKs",
       name: "Petra Fernandes",
-      description: "23 anos, Assistente Social Voluntária, engajada nas áreas de política social, criança e adolescente e saúde mental.",
+      description: "23 anos, Assistente Social Voluntária e idealizadora do projeto. Tem experiência com Assistência Estudantil, pesquisa na área de drogas e saúde mental, e experiência com Defesa Civil. Estudante de Front-End, é engajada nas áreas de política social, Política de Atenção a Crianças e Adolescentes.",
       
     },
     {

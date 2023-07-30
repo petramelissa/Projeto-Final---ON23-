@@ -15,6 +15,13 @@
     justify-items: center; 
   }
 
+  .headerImage {
+    width: 100%;
+    height: 50vh; 
+    background-size: cover;
+    background-position: center;
+  }
+
   .introSection {
     background-color: #f8ddf5b9;
     padding: 2rem;
@@ -41,5 +48,17 @@
     }
   }
 
+  @media screen and (max-width: 768px) {
+    .sectionContainer {
+      grid-template-columns: 1fr;
+      padding: 1rem; 
+    }
+  
+    .headerImage {
+      height: 30vh; 
+    }
+  }
+
+  
  
  
