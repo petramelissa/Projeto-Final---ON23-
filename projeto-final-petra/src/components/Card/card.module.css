@@ -2,6 +2,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  gap: 1rem;
 }
 
 
@@ -40,7 +41,7 @@
   }
   
   .card p {
-    font-size: 1rem;
+    font-size: 0.8rem;
     color: #474a51;
     line-height: 1.5;
   }
@@ -60,3 +61,22 @@
   .card a:hover {
     background-color: #d080c6;
   }
+
+  @media screen and (max-width: 768px) {
+    
+    .sectionContainer {
+      grid-template-columns: 1fr;
+      padding: 1rem;
+    }
+    
+    .cardContainer {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .card {
+      max-width: 100%; 
+    }
+  }
+
+  
