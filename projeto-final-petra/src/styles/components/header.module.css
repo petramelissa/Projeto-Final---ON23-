@@ -16,8 +16,8 @@
 }
 
 .headerImage {
-  width: 60rem;
-  padding-top: 0%;
+  max-width: 100%;
+  height: auto; 
+  width: 90vw; 
   margin-bottom: 2rem;
-  height: fit-content;
 }
